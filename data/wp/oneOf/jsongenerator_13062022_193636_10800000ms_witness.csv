@@ -1,0 +1,96 @@
+objectId,witness
+wp_94_Normalized,{ }
+wp_96_Normalized,{ }
+wp_53_Normalized,{ }
+wp_78_Normalized,{ }
+wp_83_Normalized,{ }
+wp_8_Normalized,"{
+  ""type"" : ""image"",
+  ""version"" : ""0.10.9""
+}"
+wp_105_Normalized,"{
+  ""name"" : ""pm"",
+  ""type"" : ""author""
+}"
+wp_4_Normalized,"{
+  ""type"" : ""mwmmpmpylwrk"",
+  ""version"" : ""0.10.9""
+}"
+wp_1_Normalized,"{
+  ""organization_id"" : """",
+  ""id"" : """",
+  ""type"" : ""author-service"",
+  ""operation"" : ""update""
+}"
+wp_9_Normalized,"{
+  ""organization_id"" : """",
+  ""_id"" : """",
+  ""type"" : ""image-operation"",
+  ""operation"" : ""update""
+}"
+wp_26_Normalized,"{
+  ""type"" : ""interstitial_link"",
+  ""url"" : ""nfmqgeebeoape"",
+  ""content"" : ""dzspmqcxjtgdy""
+}"
+wp_5_Normalized,"{
+  ""organization_id"" : """",
+  ""id"" : """",
+  ""type"" : ""content-operation"",
+  ""operation"" : ""delete-redirect""
+}"
+wp_0_Normalized,"{
+  ""type"" : ""audio"",
+  ""version"" : ""0.10.9"",
+  ""source_url"" : """"
+}"
+wp_27_Normalized,"{
+  ""type"" : ""link_list"",
+  ""items"" : [ {
+    ""type"" : ""interstitial_link"",
+    ""url"" : ""ezsdzspmqcxjtg"",
+    ""content"" : ""xkrpvmwmmpmpyl""
+  } ]
+}"
+wp_15_Normalized,"{
+  ""type"" : ""results"",
+  ""version"" : ""0.10.9""
+}"
+wp_6_Normalized,"{
+  ""type"" : ""gallery"",
+  ""version"" : ""0.10.9""
+}"
+wp_98_Normalized,"[ {
+  ""options"" : {
+    ""enabled"" : false
+  }
+} ]"
+wp_123_Normalized,"{
+  ""type"" : ""video"",
+  ""version"" : ""0.10.9""
+}"
+wp_7_Normalized,"{
+  ""organization_id"" : """",
+  ""_id"" : """",
+  ""type"" : ""gallery-operation"",
+  ""operation"" : ""delete""
+}"
+wp_124_Normalized,"{
+  ""organization_id"" : """",
+  ""id"" : """",
+  ""type"" : ""video-operation"",
+  ""operation"" : ""update""
+}"
+wp_3_Normalized,"{
+  ""type"" : ""collection"",
+  ""version"" : ""0.10.9""
+}"
+wp_17_Normalized,"{
+  ""type"" : ""story"",
+  ""version"" : ""0.10.9""
+}"
+wp_35_Normalized,"{
+  ""story_id"" : ""mqg"",
+  ""type"" : ""story_operation"",
+  ""operation"" : ""create""
+}"

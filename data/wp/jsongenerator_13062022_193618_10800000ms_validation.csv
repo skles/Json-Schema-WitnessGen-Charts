@@ -1,0 +1,5 @@
+objectId,nbErrors,errorsTypes,errorsMessages
+wp_91_Normalized,1,type,$: array found     object expected
+wp_55_Normalized,1,type,$: array found     object expected
+wp_65_Normalized,1,type,$: array found     object expected
+wp_116_Normalized,1,type,$.headlines: boolean found     object expected
