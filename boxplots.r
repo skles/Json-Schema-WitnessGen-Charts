@@ -43,7 +43,7 @@ outlier <- function(x) {
 # Plot data
 p.base <- ggplot(df.tidy, aes(x=procStep, y=value, fill=procStep)) + 
   stat_summary(fun.data=quantiles, geom="boxplot", width=0.75) +
-  stat_summary(fun=outlier, geom="point", alpha=0.2) +
+  stat_summary(fun.y=outlier, geom="point", alpha=0.2) +
   stat_summary(fun.data=quantiles, geom = "errorbar", color="black", width=0.5) + 
   scale_y_continuous(trans = "pseudo_log",
                      breaks = 10^(0:7),
