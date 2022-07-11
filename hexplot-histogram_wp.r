@@ -66,8 +66,7 @@ hexplot <- function(col.low="#132B43", col.high="#56B1F7", col.med="red", col.in
     labs(x = "File Size [Bytes]", y = y_title) +
     scale_fill_gradient(name="Count", low=col.low, high=col.high) +
     scale_y_continuous(trans = "pseudo_log", breaks = 10^(0:7),
-                       labels = trans_format('log10', math_format(10^.x)),
-                       limits = c(0, 10^4))  +
+                       labels = trans_format('log10', math_format(10^.x)))  +
     scale_x_continuous(trans = "pseudo_log", breaks = 10^(0:7),
                        labels = trans_format('log10', math_format(10^.x)))  +
     theme(axis.title=element_text(size=text_size, family=text_family),
