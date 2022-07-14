@@ -19,14 +19,14 @@ hexplot_fix <- function(col.low="#132B43", col.high="#56B1F7", col.med="red", co
   plot <- ggplot(data=df, aes(x = inSize, y=totalTime)) + 
     geom_point(alpha=0)  +
     geom_point(data=df_timeout, aes(x=inSize, y=Inf), colour=col.inf) +
-    geom_text(aes(x=10^5, label="Timeout", y=10^6.5), nudge_y=0.7, nudge_x=-0.2, vjust=0,
+    geom_text(aes(x=10^5, label="Timeout", y=10^6.5), nudge_y=0.7, nudge_x=-0.3, vjust=0,
              colour=col.inf, family=text_family, check_overlap = TRUE, size=7) +
     geom_hex(bins=256, binwidth = c(.15, .15)) +
     geom_vline(xintercept=size_median, size=.5, color=col.med, linetype = "dashed") +
-    geom_text(aes(x=size_median, label="Median", y=10^6), nudge_x=-0.2, nudge_y=-0.2, colour=col.med, 
+    geom_text(aes(x=size_median, label="Median", y=10^6), nudge_x=-0.3, nudge_y=-0.2, colour=col.med, 
               angle=90, family=text_family, check_overlap = TRUE, size=7) +
     geom_hline(yintercept=time_median, size=.5, color=col.med, linetype = "dashed") + 
-    geom_text(aes(x=10^5.8, label="Median", y=time_median), nudge_x=0.1, nudge_y=0.5, colour=col.med, 
+    geom_text(aes(x=10^5.8, label="Median", y=time_median), nudge_x=0.1, nudge_y=0.6, colour=col.med, 
               family=text_family, check_overlap = TRUE, size=7) +
     labs(x = "File Size [Bytes]", y = "") +
     scale_fill_gradient(name="Count", low=col.low, high=col.high) +
